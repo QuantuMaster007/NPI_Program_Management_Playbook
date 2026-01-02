@@ -23,6 +23,10 @@ A **TPM/EPM-style execution repo** that demonstrates how to plan, run, and de-ri
 - Change control: [`docs/raids/CHANGE_CONTROL.md`](docs/raids/CHANGE_CONTROL.md)
 - Weekly exec update: [`docs/reports/WEEKLY_EXEC_UPDATE_TEMPLATE.md`](docs/reports/WEEKLY_EXEC_UPDATE_TEMPLATE.md)
 
+## Latest Execution Artifacts
+- Weekly Exec Update: docs/reports/WEEKLY_EXEC_UPDATE_2026-01-01.md
+- Evidence: docs/evidence/critical_path_output.md, docs/evidence/readiness_score_output.md
+
 ---
 
 ## What “good” looks like (at a glance)
