@@ -27,8 +27,8 @@ A **TPM/EPM-style execution repo** that demonstrates how to plan, run, and de-ri
 ---
 
 ## Execution Artifacts
-- Weekly Exec Update: docs/reports/WEEKLY_EXEC_UPDATE_2026-01-01.md
-- Evidence: docs/evidence/critical_path_output.md, docs/evidence/readiness_score_output.md
+- Weekly Exec Update: [`docs/reports/WEEKLY_EXEC_UPDATE_2026-01-01.md`]
+- Evidence: [`docs/evidence/critical_path_output.md`], [`docs/evidence/readiness_score_output.md`]
 
 ---
 
