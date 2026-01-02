@@ -1,0 +1,5 @@
+item_id,domain,description,status
+C001,Hardware,BOM Rev locked,done
+C002,Controls,Release lock candidate identified,in_progress
+C003,Facilities,Network drops approved,blocked
+C004,EHS,LOTO plan reviewed,done

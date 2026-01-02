@@ -1,0 +1,14 @@
+task_id,task_name,domain,owner,start_date,end_date,depends_on
+T001,Finalize Charter,Governance,PM,2026-01-02,2026-01-06,
+T010,Requirements Baseline,System,Eng Lead,2026-01-07,2026-01-20,T001
+T020,ICD v0.1 Draft,Controls,Controls Lead,2026-01-10,2026-01-24,T010
+T030,Site Survey & Utilities Plan,Facilities,Facilities Lead,2026-01-08,2026-01-22,T001
+T040,Long-Lead Orders Placed,HW/Supplier,SCM,2026-01-15,2026-01-16,T010
+T050,Design Freeze (HW),Hardware,HW Lead,2026-01-21,2026-02-05,T010
+T060,Controls Release Lock Candidate,Controls,Controls Lead,2026-02-01,2026-02-10,T020
+T070,Build Assembly (EVT),Hardware,Mfg,2026-02-10,2026-03-05,T040;T050
+T080,FAT Execute,Test,Test Lead,2026-03-06,2026-03-20,T070;T060
+T090,Facilities Readiness Minimum,Facilities,Facilities Lead,2026-03-01,2026-03-25,T030
+T100,Move-in & Install,Integration,Ops,2026-03-26,2026-04-05,T080;T090
+T110,SAT/Commissioning,Integration,Ops,2026-04-06,2026-04-20,T100
+T120,Qualification Run,Test,Test Lead,2026-04-21,2026-05-15,T110
