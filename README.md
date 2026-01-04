@@ -72,11 +72,5 @@ src/
 .github/
   ISSUE_TEMPLATE/
 ```
-
----
-
-## Suggested GitHub labels (copy/paste)
-`HW` `Controls` `Facilities` `Supplier` `Test` `EHS` `Critical Path` `Change Request` `Decision Needed` `Blocker` `Risk`
-
 ---
 
