@@ -80,5 +80,3 @@ src/
 
 ---
 
-## License
-MIT (recommended for templates).
