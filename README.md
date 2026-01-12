@@ -1,9 +1,9 @@
-# NPI Program Playbook — Hardware + Controls + Facilities
+# NPI Program Playbook — Hardware + Controls + Facilities/Infrastructure
 
 A **TPM/EPM-style execution repo** that demonstrates how to plan, run, and de-risk an NPI program across:
 - **Hardware** (design, build, suppliers, FAT/SAT)
 - **Controls/Software** (PLC/firmware/HMI, safety interlocks, versioning)
-- **Facilities** (power, CDA, exhaust, network, EHS, permits, site readiness)
+- **Facilities/Infrastructure ** (power, CDA, exhaust, network, EHS, permits, site readiness)
 
 > This repository is intentionally **artifact-forward** (charter, WBS, IMS, RAID, change control, gates, weekly exec updates).  
 > Use synthetic/anonymized data if you publish externally.
@@ -41,7 +41,7 @@ This repo treats the program as an integration of three readiness streams.
 flowchart LR
   HW[Hardware Readiness] --> INT[Integration / Bring-up]
   SW[Controls / Software Readiness] --> INT
-  FAC[Facilities Readiness] --> INT
+  FAC[Facilities/Infrastructure Readiness] --> INT
   INT --> VAL[Validation / Qualification]
   VAL --> RAMP[Ramp / Handoff]
 ```
